@@ -1,6 +1,6 @@
-# blog-server
+# midway-mongoose-demo
 
-{{description}}
+midway & mongoose组合使用demo 稍微写了个可复用的utils 放心食用(midway作者提供的example太坑啦T_T
 
 ## QuickStart
 
