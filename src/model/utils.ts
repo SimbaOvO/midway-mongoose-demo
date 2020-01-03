@@ -1,8 +1,10 @@
-export function getModel(_this: any, schemaOptions: any, modelName: string, collection: string) {
-  if(_this.mongoose.models[modelName]){
-    return _this.mongoose.models[modelName];
+import { ISchemaOption } from "../interface";
+
+export function getModel(mongoose: any, options: ISchemaOption) {
+  if(mongoose.models[options.modelName]){
+    return mongoose.models[options.modelName];
   }
-  const Schema = _this.mongoose.Schema
-  const schema = new Schema(schemaOptions)
-  return _this.mongoose.model(modelName, schema, collection)
+  const Schema = mongoose.Schema
+  const schema = new Schema(options.schemaOptions)
+  return mongoose.model(options.modelName, schema, options.collection)
 }

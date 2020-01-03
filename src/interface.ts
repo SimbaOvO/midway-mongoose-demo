@@ -21,3 +21,9 @@ export interface IUserResult {
 export interface IUserService {
   getUser(options: IUserOptions): Promise<IUserResult>;
 }
+
+export interface ISchemaOption {
+  schemaOptions: any,
+  modelName: string,
+  collection: string
+}
