@@ -18,6 +18,12 @@ export default (appInfo: EggAppInfo) => {
       options: {}
     },
   };
+  
+  config.security = {
+    csrf: {
+      enable: false,
+    }
+  }
 
   return config;
 };
