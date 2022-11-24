@@ -3,7 +3,7 @@
 midway & mongoose组合使用demo 稍微写了个可复用的utils 放心食用(midway作者提供的example太坑啦T_T
 
 ## Update
-- 2020.3.4 [Demo Error](https://www.idrlzt.cn/content/5e79e554a948915f49117a12)
+- 2020.3.4 [Demo Error](https://www.idrlzt.cn/content/619f1fc4ce6a1c6eca416646)
 ## QuickStart
 
 <!-- add docs here for user -->
